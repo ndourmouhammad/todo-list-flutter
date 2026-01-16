@@ -18,7 +18,7 @@ Il s'agit d'une simple application de liste de tâches construite avec un fronte
 3.  **Important** : Ouvrez votre fichier `settings.py` et ajoutez l'adresse IP de votre machine à la liste `ALLOWED_HOSTS`. Par exemple :
 
     ```python
-    ALLOWED_HOSTS = ['10.54.188.174', 'localhost', '127.0.0.1']
+    ALLOWED_HOSTS = ['votre_adresse_ip', 'localhost', '127.0.0.1']
     ```
 
 4.  Lancez le serveur Django pour qu'il soit accessible sur votre réseau local :
