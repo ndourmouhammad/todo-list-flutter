@@ -7,7 +7,6 @@ class TaskProvider extends ChangeNotifier {
   List<TaskModel> _tasks = [];
 
   List<TaskModel> get tasks => _tasks;
-
   Future<void> fetchTasks() async {
     _tasks = await _apiService.getTasks();
     notifyListeners();
